@@ -4,20 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -26,101 +12,79 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead">change to javascript
+        dynmic date
+      </p>
     </header>
 
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>9am</h3></div>
-         <div class="content" contenteditable="true"><h3 class="message">important</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
+    <section id="schedule">
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3> 9am</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><button class="btn">ClickMe</button></div>
+        </div>
+       
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>10am</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>11am</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>12pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>1pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>2pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>3pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>4pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
+      <div class="sch-container">
+        <div class="indy-container"> 
+          <div class="hour"><h3>5pm</h3></div>
+          <div class="text"><h3>text</h3></div>
+          <div class="save"><h3>save</h3></div>
+        </div>
+      </div>
 
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>10am</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
+    </section>
 
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>11am</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>12am</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>1pm</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>2pm</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>3pm</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>4pm</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
-    <div class=" prime container">
-      <!-- Timeblocks go here -->
-       <!--Indivial father container holding childs-->
-       <div class="content-container">
-         <div class="time"><h3>5pm</h3></div>
-         <div class="content"><h3>Text</h3></div>
-         <div class="btn-save"><h3>Btn</h3></div>
-
-       </div>
-    </div>
 <script src="/js.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
 </html>
