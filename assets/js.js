@@ -1,14 +1,34 @@
-let firstDiv = document.querySelector('.content')
+let currentDay = document.querySelector('#currentDay')
+let hour = document.querySelectorAll('.hour')
+//let txtArea = document.querySelectorAll('#txt') 
+let btn = document.querySelectorAll('.btn')
 
-let message = document.querySelector('.message')
+const dateTime = new Date()
+//currentDay.textContent = dateTime
 
-firstDiv.addEventListener('click',function(){
+//console.log(txtArea)
+//console.log(hour)
+//console.log(btn)
+//console.log(hour[1].textContent)
+//console.log(currentDay.textContent)
 
- if(firstDiv.textContent=== 'important'){
-      firstDiv.style.backgroundColor= 'red'
- }
+
+if(currentDay.textContent = hour[1].textContent){
+  document.getElementById('txt').style.backgroundColor = "red"
+}else{
+     console.log('the if statement not working ')
+}
+
+for(let i = 0; i < hour.length; i++){
+
+if(currentDay.textContent = hour[i].textContent){
+     document.getElementById('txt').style.backgroundColor = "red"
+   }else{
+        console.log('the if statement not working ')
+   }
+     console.log(hour[i].textContent)
+}
 
 
 
-})
-console.log(firstDiv.textContent)
+

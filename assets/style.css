@@ -51,12 +51,6 @@ header h1 {
   text-align: center;
   padding-top: 5px;
 }
-.text {
-  width: 80%;
-  background-color: gray;
-  padding-left: 20px;
-  padding-top: 5px;
-}
 
 .save {
   width: 10%;
@@ -71,4 +65,12 @@ header h1 {
 .btn p {
   color: white;
   text-shadow: 1px 1px 8px black;
+}
+
+#txt {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
 }
