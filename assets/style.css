@@ -11,7 +11,8 @@ header {
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 45px;
-  background-color: lightcoral;
+  color: white;
+  background-color: black;
 }
 header h1 {
   padding-top: 35px;
@@ -31,7 +32,7 @@ header h1 {
   font-size: 16px;
 }
 .indy-container div {
-  border: solid 1px gold;
+  border: solid 1px black;
   color: white;
   text-shadow: 1px 1px 8px black;
 }
@@ -66,6 +67,8 @@ header h1 {
   height: 100%;
   border: none;
   background-color: rgb(29 161 242);
+}
+.btn p {
   color: white;
   text-shadow: 1px 1px 8px black;
 }
