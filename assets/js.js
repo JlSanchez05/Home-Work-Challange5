@@ -1,4 +1,6 @@
-let currentDay = document.querySelector('#currentDay')
+const timeElement = document.querySelector('.time')
+const dateElement = document.querySelector('.dates')
+
 let hour = document.querySelectorAll('.hour')
 let txtArea = document.querySelectorAll('#txt') 
 let btn = document.querySelectorAll('.btn')
@@ -6,6 +8,17 @@ let btn = document.querySelectorAll('.btn')
 const dateTime = new Date()
 //currentDay.textContent = dateTime
 
+function formatTime(date){
+  const hours12 = date.getHours() % 12 || 12
+  const minutes = date.getMinutes()
+  const isAm = date.getHours()< 12
+
+return `${hours12.toString().padStart(2,' 0')}:${minutes.toString().padStart(2,"0")} ${isAm ? "AM" : "PM"}`
+}
+function formatDate(date){
+  const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+  const MONTHS = ['January','February','March','April','May','June','July','Auguest','October','November','Decemeber']
+}
 //console.log(txtArea)
 //console.log(hour)
 //console.log(btn)
@@ -25,14 +38,5 @@ const dateTime = new Date()
     // console.log(hour[i].textContent)
 //}
 
-let timeReader = function(){
-  if(currentDay.textContent == hour[1].textContent){
-       console.log('if statement is working')
 
-  }else {
-       console.log('the if statemetn is not working')
-  }
-}
-timeReader()
-console.log(hour[5].textContent)
 
