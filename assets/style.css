@@ -77,23 +77,77 @@ header p {
   width: 10%;
 }
 
-.btn {
+.btn0 {
   width: 100%;
   height: 100%;
   border: none;
   background-color: #25e1bb;
-}
-.btn p {
   color: white;
   text-shadow: 1px 1px 8px black;
 }
-
-#txt {
-  width: 80%;
-  background-color: grey;
-  padding-left: 25px;
-  padding-top: 25px;
-  font-size: 20px;
+.btn1 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn2 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn3 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn4 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn5 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn6 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn7 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+}
+.btn8 {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #25e1bb;
+  color: white;
+  text-shadow: 1px 1px 8px black;
 }
 
 #txt1 {
@@ -105,6 +159,57 @@ header p {
 }
 
 #txt0 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+#txt2 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+#txt3 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+#txt4 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+#txt5 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+#txt6 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+#txt7 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
+#txt8 {
   width: 80%;
   background-color: grey;
   padding-left: 25px;
