@@ -103,3 +103,11 @@ header p {
   padding-top: 25px;
   font-size: 20px;
 }
+
+#txt0 {
+  width: 80%;
+  background-color: grey;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 20px;
+}
