@@ -106,6 +106,33 @@ btn8.addEventListener('click',function(){
   localStorage.setItem('#txt8',txt8)
 })
 document.querySelector('#txt8').textContent = localStorage.getItem('#txt8')
+
+
+// come back later this is delete function
+let clearBtn = document.querySelector('.clearBtn')
+console.log(clearBtn.textContent)
+
+clearBtn.addEventListener('click',function(){
+  document.getElementById('txt0').innerHTML= localStorage.clear()
+  document.getElementById('txt1').innerHTML= localStorage.clear()
+  document.getElementById('txt2').innerHTML= localStorage.clear()
+  document.getElementById('txt3').innerHTML= localStorage.clear()
+  document.getElementById('txt4').innerHTML= localStorage.clear()
+  document.getElementById('txt5').innerHTML= localStorage.clear()
+  document.getElementById('txt6').innerHTML= localStorage.clear()
+  document.getElementById('txt7').innerHTML= localStorage.clear()
+  document.getElementById('txt8').innerHTML= localStorage.clear()
+
+
+
+  location.reload()
+  console.log('clicked')
+})
+
+
+  
+
+
 /*
 function testing(){
   console.log('clicked')
