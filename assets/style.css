@@ -230,6 +230,12 @@ header p {
   border-radius: 5px;
   margin-bottom: 20px;
 }
+.credits {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
 
 @media screen and (max-width: 980px) {
   header {
